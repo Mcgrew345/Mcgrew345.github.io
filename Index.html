@@ -4,8 +4,9 @@
     <title>CIT 230 Course Portal</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Assignment portal for cory McGrew in CIT 230 at BYUI">
-    <link rel="stylesheet" href="styles.css">
+    <meta name="description" content="Assignment portal for Cory McGrew in CIT 230 at BYU-I">
+    <link rel="stylesheet" href="js/styles.css">
+    <script src="js/date.js" ></script>
 </head>
 
 <body>
@@ -27,11 +28,13 @@
     <footer>
         <div>
             <p id="info">&copy;2021 | Cory McGrew | Idaho | <a href="https://www.byui.edu/online">BYUI Online Learning</a></p>
-            <p id="update">Last Updated: <span id="lastupdate"></span> </p>
+            <p id="update"><span>Last Updated:<script> document.write( updateCurrentDate() ); </script></span> </p>
         </div>
     </footer>
-    <span>Last Updated:
-        <script> document.write( updateCurrentDate() ); </script></span>
+
+
+
+
 </div>
 </body>
 </html>
