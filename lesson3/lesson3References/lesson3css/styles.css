@@ -3,9 +3,9 @@
     margin: 0 auto;
 }
 h1 {
-    color: white;
+    color: #FDCA40;
     text-align: center;
-    background-color: rgb(172, 107, 233);
+    background-color: #E6E8E6;
     height: 1.5em;
     box-shadow: 4px 4px 4px black;
     padding: 20px;
@@ -48,7 +48,7 @@ h2 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
 #info {
-    color: white;
+    color: red;
     font-size: 18px;
     text-align: center;
 }
