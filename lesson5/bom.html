@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/bom.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+
+
+    <title>BOM</title>
+</head>
+
+<body>
+<header>
+    <h1>BOM</h1>
+</header>
+<nav>
+    <a href ="../">Home Menu</a>
+</nav><hr><hr>
+<main>
+
+    <div class="input">
+        <label>Enter Book and Chapter
+            <input type="text" id="favchap" placeholder="1 Nephi 5" required></label>
+        <button type="submit">Add Chapter</button>
+    </div>
+</main>
+<ul></ul>
+<script>
+    const list = document.querySelector('ul');
+    const input = document.querySelector('input');
+    const button = document.querySelector('button');
+
+    button.onclick = function() {
+        let myItem = input.value;
+        input.value = '';
+        const listItem = document.createElement('li');
+        const listText = document.createElement('span');
+        const listBtn = document.createElement('button');
+
+
+        listItem.appendChild(listText);
+        listText.textContent = myItem;
+        listItem.appendChild(listBtn);
+        listBtn.textContent = 'Delete';
+        list.appendChild(listItem);
+
+
+
+        input.focus();
+    }
+</script>
+
+
+</body>
+<footer>
+    <div>
+        <p id="info">&copy;2021 | Cory McGrew | Idaho | <a href="https://www.byui.edu/online">BYUI Online Learning</a></p>
+        <p>Last Modified: <span id="lastmod"></span></p>
+        <script src="../lesson4/js/index.js"></script>
+    </div>
+
+</footer>
+</html>

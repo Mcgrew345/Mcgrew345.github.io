@@ -1,0 +1,40 @@
+
+
+main {
+    margin: 0.5rem;
+    border: 1px solid #999;
+    padding: 0.5rem;
+    background-color: #bed;
+    display: grid;
+    grid-template-columns: 1px;
+}
+
+input,
+button {
+    padding: 0.5rem;
+}
+
+label {
+    font-size: 1.0rem;
+}
+.listcontainer {
+    border: 1px solid #bbb;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.list {
+    margin: 0.5rem;
+}
+
+ul {
+    margin: 1rem;
+    list-style: none;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+}
