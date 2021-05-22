@@ -3,11 +3,11 @@
     margin: 0 auto;
 }
 h1 {
-    color: #FDCA40;
+    color: #ef0707;
     text-align: center;
-    background-color: #E6E8E6;
+    background-color: rgb(14, 248, 46);
     height: 1.5em;
-    box-shadow: 4px 4px 4px black;
+    box-shadow: 4px 4px 4px #000000;
     padding: 20px;
     font-size: 60px;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -23,7 +23,7 @@ hr {
     /**border-width: 1px;**/
 }
 footer {
-    background-color: rgb(172, 107, 233);
+    background-color: rgb(55, 231, 23);
     padding: 1px;
     border-radius: 10px;
     box-shadow: 4px 4px 4px black;
@@ -48,11 +48,11 @@ h2 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
 #info {
-    color: red;
+    color: gold;
     font-size: 18px;
     text-align: center;
 }
 #update {
-    color: yellow;
+    color: silver;
     text-align: center;
 }
