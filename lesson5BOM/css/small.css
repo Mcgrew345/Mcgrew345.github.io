@@ -53,12 +53,12 @@ nav {
 
 }
 header, footer {
-    background-color: #145f14;
-    color: gold;
+    background-color: #457B9D;
+    color: #F1FAEE;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 10px 0;
+    padding: 5px 0;
 
 
 }
@@ -116,7 +116,7 @@ body {
 
 .weather span{
     font-weight: bold;
-    color: #c4127d;
+    color: #36588C;
 }
 main {
     max-width: 767px;
@@ -136,7 +136,7 @@ main {
     margin-bottom: 10px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(50px,1fr));
-    border-right: 1px solid #db0751;
+    border-right: 1px solid #36588C;
 }
 .grid-col {
     background-color: #bbb;

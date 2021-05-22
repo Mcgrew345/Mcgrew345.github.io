@@ -10,29 +10,15 @@
     }
 
 }
-
 #Mcdonalds, #Titan, #Carousell{
     width: 475px;
-    height: auto;
-
-}
-
-h1 {
-
-    font-size: 2.75em;
-
-}
-
+    height: auto;}
+h1 {font-size: 2.75em;}
 h2 {
     font-family: 'Parisienne', cursive;
     color:#FDCA40 ;
-    font-size: 2.25em;
-
-}
-
+    font-size: 2.25em; }
 h3 {
     font-family: 'Barlow Condensed', sans-serif;
     color:#FDCA40 ;
-    font-size: 1.75em;
-
-}
+    font-size: 1.75em; }
