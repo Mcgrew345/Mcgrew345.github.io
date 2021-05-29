@@ -45,8 +45,7 @@ h2 {
 #update {
     color: silver;
     text-align: center;
-}.gallery picture:hover {
-     box-shadow: 0 0 50px#333;
+
  }   .preston {
          width: 100%;
          height: auto;

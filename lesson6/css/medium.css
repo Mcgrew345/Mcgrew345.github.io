@@ -33,13 +33,11 @@
         display: none;
     }
 
-    .article, .contactinfo{
+    .article, .contactinfo {
         flex-flow: nowrap;
         margin: 10px;
 
-    }.gallery picture:hover {
-         box-shadow: 0 0 50px#333;
-     }
+    }
     .preston {
         width: 100%;
         height: auto;
