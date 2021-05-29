@@ -5,8 +5,27 @@
     padding: 0;
     line-height: 1em;
 }
+main figure.preston img {
+    width: 100%
+}
+div#message {
+            background-color: yellow;
+        }
 
+div.showme {
+    display: block;
+}
 
+div.hideme {
+    display: none;
+}
+
+.hero-content {
+    border: none;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
 #banner {
     padding: .7em;
     text-align: center;
@@ -108,7 +127,42 @@ body {
     opacity: 0.8;
 
 }
+div#banner {
+    background-color: yellow;
+}
 
+div.showme {
+    display: block;
+}
+
+div.hideme {
+    display: none;
+}
+.hide {
+    display: none;
+}
+.weathersummary {
+    position: absolute;
+    color: #00171f;
+    top: 20px;
+    left: 20px;
+    background: radial-gradient(#ffffff, #e0d9d994);
+    border: 2px solid #000;
+    text-align: left;
+    padding: 1%;
+    margin: 1%;
+    -webkit-box-shadow: 5px 5px 11px 1px #e0d9d994;
+    box-shadow: 5px 5px 11px 1px #4b4a4ac4;
+}
+.social {
+    padding: 1rem;
+}
+
+.social img {
+    padding: 2px;
+    -webkit-box-shadow: 5px 5px 11px 1px #000000;
+    box-shadow: 5px 5px 11px 1px #000000;
+}
 .weather span{
     font-weight: bold;
     color: #c4127d;

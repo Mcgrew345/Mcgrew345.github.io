@@ -22,6 +22,8 @@
     nav button{
         display: none;
     }
+    .hero div {
+           max-width: 64rem;}
     .headings h1{
         margin: 0 0 0 17px;
         font-size: 2.5rem;
@@ -43,11 +45,19 @@
         margin: 10px;
 
     }
+    /* gallery */
+    .gallery {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 1rem;
+        margin: 1rem;
+    }
     .gallery picture:hover {
         box-shadow: 0 0 50px#333;
     }
+}
     .preston {
         width: 100%;
         height: auto;
     }
-}
+
