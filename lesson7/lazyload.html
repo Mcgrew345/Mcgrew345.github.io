@@ -4,14 +4,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lazy Load Example</title>
+    <title>Lazy Load</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="css/menu.css">
     <link rel="stylesheet" href="css/lazyload.css">
-
 </head>
 
 <body>
 <h1>Lazy Load</h1>
 <main>
+    <nav>
+        <ul class="navigation">
+            <li><a class="ham" href ="../">Menu</a></li>
+            <li><a href ="../">Home Menu</a></li>
+            <li><a href ="gallery-7.html">Gallery-7</a></li>
+        </ul>
+    </nav>
     <picture>
         <img src="images/Placeholder.png" data-src="images/christmas_tree.jpg&MaxH=400" alt="placeholder">
     </picture>
