@@ -12,39 +12,56 @@
     .navigation {
         display: flex;
     }
+
     .navigation li {
         display: block;
         flex: 1 1 auto;
     }
+
     .navigation a {
         text-align: center;
     }
-    nav button{
+
+    nav button {
         display: none;
     }
+
     .hero div {
-           max-width: 64rem;}
-    .headings h1{
+        max-width: 64rem;
+    }
+
+    .headings h1 {
         margin: 0 0 0 17px;
         font-size: 2.5rem;
     }
-    .slogan{
+
+    .slogan {
 
         font-size: .8rem;
     }
+
     .navigation li:first-child {
         display: none;
     }
-    h2{
+
+    h2 {
         font-size: 1rem;
         color: #36588C;
         padding-top: 5px;
     }
-    .article, .contactinfo{
+
+    .article, .contactinfo {
         flex-flow: nowrap;
         margin: 10px;
 
     }
+
+
+    .preston {
+        width: 100%;
+        height: auto;
+    }
+
     /* gallery */
     .gallery {
         display: grid;
@@ -52,13 +69,8 @@
         grid-gap: 1rem;
         margin: 1rem;
     }
+
     .gallery picture:hover {
-        box-shadow: 0 0 50px#333;
+        box-shadow: 0 0 50px #333;
     }
-
 }
-    .preston {
-        width: 100%;
-        height: auto;
-    }
-
