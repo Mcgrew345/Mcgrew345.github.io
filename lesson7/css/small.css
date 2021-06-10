@@ -267,3 +267,21 @@ footer{
          width: 100%;
          height: auto;
      }
+/*-----Gallery-----*/
+
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    grid-gap: 1rem;
+    margin: 1rem;
+}
+
+.gallery picture {
+    box-shadow: 5px 5px 11px 1px #000000;
+}
+
+.gallery figcaption {
+    padding: .5rem 0;
+    text-align: center;
+}
