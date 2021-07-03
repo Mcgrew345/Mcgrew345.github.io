@@ -20,7 +20,7 @@ fetch(requestURL)
                 name.textContent = towns[i].name;
                 motto.textContent = towns[i].motto;
 
-                currentPopulation.textContent = 'Population: ' + towns[i].currentPopulation + ' souls';
+                currentPopulation.textContent = 'Population: ' + towns[i].currentPopulation + ' mortals';
                 averageRainfall.textContent = 'Average Rainfall: ' + towns[i].averageRainfall;
                 yearFounded.textContent = 'Year Founded: ' + towns[i].yearFounded;
 
