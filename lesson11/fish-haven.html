@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <title>Fish Haven Town Page</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="css/menu.css">
+</head>
+<body style="background-color:#a5afb0;">
+<header>
+        <h1>Fish Haven</h1>
+</header>
+<nav>
+    <ul class="navigation">
+        <li><a class="ham" href ="../">Menu</a></li>
+        <li><a href ="../">Index</a></li>
+        <li><a href="index.html" class="active">Home Weather</a></li>
+        <li><a href="preston.html">Preston</a></li>
+        <li><a href="soda-springs.html">Soda Springs</a></li>
+        <li><a href="fish-haven.html">Fish Haven</a></li>
+        <li><a href="stormcenter.html">Storm Center</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+    </ul>
+</nav>
+<main>
+    <h2>Fish Haven Idaho</h2>
+
+    <div class="herodiv">
+        <picture class="photo">
+            <source media="(min-width: 250px) and (max-width: 500px)" srcset="images/fish360.jpg">
+            <source media="(min-width: 501px) and (max-width: 799px)" srcset="images/fish500.jpg">
+            <source media="(min-width: 800px)" srcset="images/fish760.jpg">
+            <img id="heroimg" src="images/fish.jpg" alt="Fish Haven Landscape">
+        </picture>
+
+        <div class="grid-col">
+            <section class="weathersummary">
+            <h3>Weather Summary</h3>
+            <div class="contentbox">Currently: <span id="current"></span></div>
+            <div class="contentbox">Current Temperature:<span id="temp"></span> &#xb0;F</div>
+            <div class="contentbox">Wind Chill: <span id="chill"></span></div>
+            <div class="contentbox">Humidity: <span id="humidity"></span>&#37;</div>
+            <div class="contentbox">Wind Speed:<span id="wind"></span> mph</div>
+        </section>
+    </div>
+
+
+
+
+
+    <div class="contentbox forecast">
+        <h3>5 Day Forecast </h3>
+        <div class="grid">
+            <div class="grid-col">
+                <span class="col-head" id="dayoftheweek1"></span>
+                <img id="icon1" src="#" alt="">
+                <span class="data"> <span id="forecast1"> </span> &#176;F</span>
+            </div>
+            <div class="grid-col">
+                <span class="col-head" id="dayoftheweek2"></span>
+                <img id="icon2" src="#" alt="">
+                <span class="data"> <span id="forecast2"> </span> &#176;F</span>
+            </div>
+            <div class="grid-col">
+                <span class="col-head" id="dayoftheweek3"></span>
+                <img id="icon3" src="#" alt="">
+                <span class="data"> <span id="forecast3"> </span> &#176;F</span>
+            </div>
+            <div class="grid-col">
+                <span class="col-head" id="dayoftheweek4"></span>
+                <img id="icon4" src="#" alt="">
+                <span class="data"> <span id="forecast4"> </span> &#176;F</span>
+            </div>
+            <div class="grid-col">
+                <span class="col-head" id="dayoftheweek5"></span>
+                <img id="icon5" src="#" alt="">
+                <span class="data"> <span id="forecast5"> </span> &#176;F</span>
+            </div>
+        </div>
+
+    </div>
+    <h3>These 14 Crazy Laws in Idaho Will Leave You Scratching Your Head</h3>
+    <div class="article">
+        <div class="story"> <p>Idaho is no stranger to the weird and wonderful world of silly legislation, and like many states, we harbor a number of outdated statutes written too long ago to be relevant, and too nonsensical to make removing them from the rule books worth the effort. So we dug a little deeper into Idaho’s hidden vault of crazy laws to see what sort of ridiculous ordinances we could find that you haven’t heard of yet.
+
+            <a href="https://www.onlyinyourstate.com/idaho/id-crazy-laws/">keep reading</a>
+
+        </p></div>
+    </div>
+
+        <div class="upcoming">
+            <h3>Upcoming Events!</h3>
+            <ul class="uplist">
+                <li>Saturday's in May: Free Breathing!*</li>
+                <li>Every Wednesday night is darkness!**</li>
+                <li>July 4th is a Sunday</li>
+
+            </ul>
+
+
+        </div>
+        <p> *With $2.43 donation.</p>
+        <p>**Expect in lighted areas.</p>
+    </div>
+
+</main>
+
+<footer>
+    <div>
+        <p id="info">&copy;2021 | Cory McGrew | Idaho | <a href="https://www.byui.edu/online">BYUI Online Learning</a></p>
+        <p>Last Modified: <span id="lastmod"></span></p>
+    </div>
+</footer>
+<script src="js/js.js"></script>
+<script src="js/fish.js"></script>
+<script src="js/windchil.js"></script>
+<script src="js/fishhaven.js"></script>
+<script src="js/index.js"></script>
+<script src="js/lazyload.js"></script>
+<script src="js/cards.js"></script>
+<script src="js/windchil.js"></script>
+<script src="js/menu.js"></script>
+
+</body>
+</html>
